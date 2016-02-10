@@ -229,6 +229,7 @@ class Life_Client_Core
 		class loadGear {};
 		class stripDownPlayer {};
         class callbackup {};
+        class randomRound {};
 	};
 	
 	class Network
@@ -385,5 +386,23 @@ class Life_Client_Core
 		class vehicleGarage {};
 		class gangDeposit {};
         class InsureCar{};
+	};
+    
+    class Market
+	{
+		file = "core\market";
+		class openMarketView {};
+		class refreshMarketView {};
+		class marketShortView {};
+		class marketBuy {};
+		class marketSell {};
+		class marketGetBuyPrice {};
+		class marketGetSellPrice {};
+		class marketconfiguration {};
+		class marketReset {};
+		class marketChange {};
+		class marketGetRow {};
+		class marketGetPriceRow {};
+		class marketSetPriceRow {};
 	};
 };

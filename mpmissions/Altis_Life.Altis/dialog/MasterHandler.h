@@ -26,3 +26,5 @@
 #include "federalReserve.h"
 #include "jail_time.h"
 #include "compensate.hpp"
+#include "common_EditorWrapper.hpp"
+#include "market.hpp"
