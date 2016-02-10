@@ -11,7 +11,7 @@ switch (playerSide) do
 		//insigne de police
         life_actions = life_actions + [player addAction["<t color='#00FF00'>Montrer l'insigne",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" ']];
         //Demande de renfort
-        life_actions pushBack (player addAction["<t color='#ADFF2F'>Demander des renforts</t>",life_fnc_callbackup,"",0,FALSE,FALSE,""]);
+		life_actions pushBack (player addAction["<t color='#ADFF2F'>Demande de renforts</t>",life_fnc_callbackup,"",0,FALSE,FALSE,""]);
     };
     
 	case civilian:

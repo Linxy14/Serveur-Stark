@@ -3147,6 +3147,10 @@
 		</Key>
 	</Package>
 	<Package name="Life_Items">
+        <Key ID="STR_Item_backup">
+			<Original>%1 is in need of police backup</Original>
+			<French>%1 a besoin de renforts</French>
+		</Key>
 		<Key ID="STR_Item_Cannabis">
 			<Original>Cannabis</Original>
 			<English>Cannabis</English>

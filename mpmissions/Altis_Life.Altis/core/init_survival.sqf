@@ -113,3 +113,11 @@ if (playerSide == west) then {
 { deleteMarkerLocal _x; } forEach _illegalmarkers;
 
 };
+
+_copmarkers = ["_backupmsg"];
+
+if (playerSide == civilian) then {
+
+{ deleteMarkerLocal _x; } forEach _copmarkers;
+
+};
